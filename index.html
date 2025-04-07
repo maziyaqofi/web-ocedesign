@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OCE Design | Portfolio</title>
+  <meta name="description" content="Layanan desain sosial media dan edukasi digital untuk UMKM. Bantu bisnis Anda tampil profesional di Instagram dan platform digital lainnya.">
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="OCE Design Logo" >
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Layanan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portofolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Harga</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimoni</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero-section">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="hero-slide" style="background-image: url('img/1.png');">
+            <div class="container">
+              <div class="hero-content">
+                <h1 data-aos="fade-up">Tingkatkan Penjualan dengan Desain Profesional</h1>
+                <p class="lead" data-aos="fade-up" data-aos-delay="100">Kami membantu UMKM membangun brand digital yang menarik dan konsisten</p>
+                <a href="#contact" class="btn btn-hero btn-lg" data-aos="fade-up" data-aos-delay="200">Konsultasi Gratis</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item active">
+          <div class="hero-slide" style="background-image: url('img/2.png');">
+            <div class="container">
+              <div class="hero-content">
+                <h1 data-aos="fade-up">Edukasi Digital untuk UMKM</h1>
+                <p class="lead" data-aos="fade-up" data-aos-delay="100">Tidak hanya desain, kami juga ajarkan strategi sosial media</p>
+                <a href="#contact" class="btn btn-hero btn-lg" data-aos="fade-up" data-aos-delay="200">Konsultasi Gratis</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Slide 3 -->
+        <div class="carousel-item active">
+          <div class="hero-slide" style="background-image: url('img/3.png');">
+            <div class="container">
+              <div class="hero-content">
+                <h1 data-aos="fade-up">Visual yang Menjual</h1>
+                <p class="lead" data-aos="fade-up" data-aos-delay="100">Desain berkualitas untuk meningkatkan konversi penjualan</p>
+                <a href="#contact" class="btn btn-hero btn-lg" data-aos="fade-up" data-aos-delay="200">Konsultasi Gratis</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+      <!-- Navigation Arrows (optional) -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="about-image">
+            <img src="img/tentangoce.png" alt="Tentang OCE Design" class="img-fluid rounded shadow">
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="section-header">
+            <span class="subtitle">Tentang Kami</span>
+            <h2>OCE Design</h2>
+            <div class="divider"></div>
+          </div>
+          <p>OCE Design adalah studio kreatif yang berfokus pada desain sosial media dan edukasi digital marketing untuk UMKM. Kami percaya bahwa setiap bisnis layak memiliki identitas digital yang profesional.</p>
+          <ul class="about-list">
+            <li><i class="fas fa-check-circle"></i> Tim berpengalaman di bidang desain dan digital marketing</li>
+            <li><i class="fas fa-check-circle"></i> Pendekatan personal untuk setiap klien</li>
+            <li><i class="fas fa-check-circle"></i> Tidak hanya desain, tapi juga strategi konten</li>
+            <li><i class="fas fa-check-circle"></i> Fokus pada ROI (Return on Investment)</li>
+          </ul>
+          <div class="about-founder mt-4">
+            <div class="d-flex align-items-center">
+              <img src="img/maziya.jpeg" alt="Maziya Ats Tsaqofi" class="rounded-circle me-3" width="60">
+              <div>
+                <h6 class="mb-0">Maziya Ats Tsaqofi</h6>
+                <small class="text-muted">Founder & Creative Director</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section-padding bg-light">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="subtitle">Layanan Kami</span>
+        <h2>Apa yang Kami Tawarkan</h2>
+        <div class="divider mx-auto"></div>
+        <p class="lead">Solusi lengkap untuk kebutuhan digital bisnis Anda</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3>Desain Sosial Media</h3>
+            <p>Feed Instagram yang konsisten, story menarik, dan konten visual yang profesional untuk meningkatkan engagement.</p>
+            <ul class="service-features">
+              <li>Desain feed & story</li>
+              <li>Template Canva khusus brand</li>
+              <li>Konsistensi visual</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Manajemen Sosial Media</h3>
+            <p>Kami mengelola akun sosial media Anda secara profesional mulai dari perencanaan konten hingga eksekusi.</p>
+            <ul class="service-features">
+              <li>Content planning</li>
+              <li>Posting terjadwal</li>
+              <li>Analisis performa</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Pendampingan Digital</h3>
+            <p>Workshop dan konsultasi privat untuk membantu Anda memahami cara mengelola sosial media bisnis secara mandiri.</p>
+            <ul class="service-features">
+              <li>Pelatihan Canva</li>
+              <li>Strategi konten</li>
+              <li>Tips meningkatkan engagement</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="subtitle">Karya Kami</span>
+        <h2>Portofolio</h2>
+        <div class="divider mx-auto"></div>
+        <p class="lead">Beberapa project yang telah kami kerjakan</p>
+      </div>
+      <div class="row g-3">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="portfolio-item">
+            <img src="assets/portfolio-1.jpg" alt="Portfolio 1" class="img-fluid">
+            <div class="portfolio-overlay">
+              <div class="portfolio-content">
+                <h4>Nurul Shine Fashion</h4>
+                <p>Desain Feed Instagram</p>
+                <a href="img/bloomify/1.png" data-fslightbox="gallery" class="portfolio-btn">
+                  <i class="fas fa-expand"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="portfolio-item">
+            <img src="assets/portfolio-2.jpg" alt="Portfolio 2" class="img-fluid">
+            <div class="portfolio-overlay">
+              <div class="portfolio-content">
+                <h4>Kedai Kopi Temanggung</h4>
+                <p>Social Media Management</p>
+                <a href="assets/portfolio-2.jpg" data-fslightbox="gallery" class="portfolio-btn">
+                  <i class="fas fa-expand"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="portfolio-item">
+            <img src="assets/portfolio-3.jpg" alt="Portfolio 3" class="img-fluid">
+            <div class="portfolio-overlay">
+              <div class="portfolio-content">
+                <h4>UMKM Batik Semarang</h4>
+                <p>Branding Digital</p>
+                <a href="assets/portfolio-3.jpg" data-fslightbox="gallery" class="portfolio-btn">
+                  <i class="fas fa-expand"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5" data-aos="fade-up">
+        <a href="#" class="btn btn-outline-primary">Lihat Lebih Banyak</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="section-padding bg-light">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="subtitle">Harga</span>
+        <h2>Paket Layanan Kami</h2>
+        <div class="divider mx-auto"></div>
+        <p class="lead">Pilih paket yang sesuai dengan kebutuhan bisnis Anda</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Starter</h3>
+              <div class="price"><span>Rp</span>1.800.000<span>/bulan</span></div>
+              <p>Untuk UMKM yang baru memulai</p>
+            </div>
+            <div class="pricing-body">
+              <ul>
+                <li><i class="fas fa-check"></i> 6 Desain Feed</li>
+                <li><i class="fas fa-check"></i> 3 Desain Story</li>
+                <li><i class="fas fa-check"></i> 1x Revisi</li>
+                <li><i class="fas fa-check"></i> Template Caption</li>
+                <li><i class="fas fa-check"></i> Konsultasi 1x</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline-primary w-100">Pilih Paket</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="pricing-card featured">
+            <div class="pricing-badge">POPULER</div>
+            <div class="pricing-header">
+              <h3>Growth</h3>
+              <div class="price"><span>Rp</span>3.500.000<span>/bulan</span></div>
+              <p>Untuk bisnis yang sedang berkembang</p>
+            </div>
+            <div class="pricing-body">
+              <ul>
+                <li><i class="fas fa-check"></i> 12 Desain Feed</li>
+                <li><i class="fas fa-check"></i> 5 Desain Story</li>
+                <li><i class="fas fa-check"></i> 2x Revisi</li>
+                <li><i class="fas fa-check"></i> 1 Reel/Video</li>
+                <li><i class="fas fa-check"></i> Laporan Mingguan</li>
+                <li><i class="fas fa-check"></i> Konsultasi 2x</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary w-100">Pilih Paket</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Enterprise</h3>
+              <div class="price"><span>Rp</span>6.000.000<span>/bulan</span></div>
+              <p>Solusi lengkap untuk bisnis besar</p>
+            </div>
+            <div class="pricing-body">
+              <ul>
+                <li><i class="fas fa-check"></i> 24 Desain Feed</li>
+                <li><i class="fas fa-check"></i> 10 Desain Story</li>
+                <li><i class="fas fa-check"></i> 3x Revisi</li>
+                <li><i class="fas fa-check"></i> 4 Reel/Video</li>
+                <li><i class="fas fa-check"></i> Manajemen Komentar</li>
+                <li><i class="fas fa-check"></i> Laporan Harian</li>
+                <li><i class="fas fa-check"></i> Konsultasi Unlimited</li>
+              </ul>
+              <a href="#contact" class="btn btn-outline-primary w-100">Pilih Paket</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4" data-aos="fade-up">
+        <p class="text-muted">*Harga dapat disesuaikan dengan kebutuhan khusus</p>
+        <a href="#contact" class="btn btn-link">Butuh Paket Custom? Hubungi Kami</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="subtitle">Testimoni</span>
+        <h2>Apa Kata Klien Kami</h2>
+        <div class="divider mx-auto"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="testimonial-card">
+                  <div class="testimonial-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="testimonial-text">"Sejak menggunakan jasa OCE Design, engagement Instagram toko saya meningkat drastis. Penjualan online naik 40% dalam 2 bulan pertama."</p>
+                  <div class="testimonial-author">
+                    <img src="assets/client-1.jpg" alt="Client 1" class="rounded-circle">
+                    <div>
+                      <h6>Bu Siti - Pemilik Butik Siti</h6>
+                      <small>Klien sejak 2023</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonial-card">
+                  <div class="testimonial-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p class="testimonial-text">"Pelatihan dari OCE sangat membantu saya yang baru mulai bisnis online. Sekarang saya bisa buat desain sederhana sendiri untuk produk saya."</p>
+                  <div class="testimonial-author">
+                    <img src="assets/client-2.jpg" alt="Client 2" class="rounded-circle">
+                    <div>
+                      <h6>Pak Budi - Pemilik Kedai Kopi</h6>
+                      <small>Klien sejak 2024</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8" data-aos="fade-right">
+          <h2>Siap Meningkatkan Penjualan Anda?</h2>
+          <p class="mb-lg-0">Konsultasi gratis dengan tim kami untuk mengetahui strategi terbaik untuk bisnis Anda.</p>
+        </div>
+        <div class="col-lg-4 text-lg-end" data-aos="fade-left">
+          <a href="#contact" class="btn btn-light btn-lg">Mulai Sekarang</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="section-header text-center" data-aos="fade-up">
+        <span class="subtitle">Hubungi Kami</span>
+        <h2>Mari Bekerja Sama</h2>
+        <div class="divider mx-auto"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5" data-aos="fade-right">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h5>Lokasi</h5>
+                <p>Semarang, Jawa Tengah</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h5>Email</h5>
+                <p>hello@ocedesign.id</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h5>Telepon/WhatsApp</h5>
+                <p>+62 858 4234 8215</p>
+              </div>
+            </div>
+            <div class="contact-social mt-4">
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7" data-aos="fade-left">
+          <form class="contact-form">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Nama Anda" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email Anda" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Subjek">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" placeholder="Pesan Anda" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="footer-widget">
+            <img src="assets/logo-white.png" alt="OCE Design" height="40">
+            <p class="mt-3">Membantu UMKM membangun brand digital yang profesional melalui desain dan edukasi.</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div class="footer-widget">
+            <h5>Menu</h5>
+            <ul class="footer-links">
+              <li><a href="#home">Beranda</a></li>
+              <li><a href="#about">Tentang</a></li>
+              <li><a href="#services">Layanan</a></li>
+              <li><a href="#portfolio">Portofolio</a></li>
+              <li><a href="#contact">Kontak</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-widget">
+            <h5>Layanan</h5>
+            <ul class="footer-links">
+              <li><a href="#">Desain Sosial Media</a></li>
+              <li><a href="#">Manajemen Instagram</a></li>
+              <li><a href="#">Pelatihan Digital</a></li>
+              <li><a href="#">Branding Bisnis</a></li>
+              <li><a href="#">Iklan Sosial Media</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-widget">
+            <h5>Newsletter</h5>
+            <p>Dapatkan tips digital marketing gratis langsung ke email Anda.</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Email Anda" required>
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mb-md-0">&copy; 2025 OCE Design. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <a href="#">Kebijakan Privasi</a> | 
+            <a href="#">Syarat & Ketentuan</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.min.js"></script>
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
